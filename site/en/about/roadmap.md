@@ -31,7 +31,7 @@ Welcome to the Milvus Roadmap! Join us on our continuous journey to enhance and 
             <td><strong>Search Quality & Performance</strong><br/><i>Deliver accurate, relevant, and fast results by optimizing architecture, algorithms and APIs</i></td>
             <td><strong>Text Match Function</strong><br/><i>Quickly filter keywords/tokens in text/varchar</i><br/><br/><strong>Grouping Search Enhancement</strong><br/><i>Introduce group_size and add group by support in hybrid search</i><br/><br/><strong>Bitmap Index & Inverted Index</strong><br/><i>Accelerate filtering on tags</i></td>
             <td><strong>Advanced Match</strong><br/><i>e.g. Match Phrase, Fuzzy Match, and more tokenizers</i><br/><br/><strong>Aggregations</strong><br/><i>Scalar field aggregations, e.g. min, max, count, distinct.</i><br/></td>
-            <td><strong>Partial Update</strong><br/><i>Support updates to a specific field's value</i><br/><br/><strong>Sorting Capability</strong><br/><i>Sort by scalar fields during execution</i><br/><br/><strong>Support Data Clustering</strong><br/><i>Data co-locality</i></td>
+            <td><strong>Partial Update</strong><br/><i>Support updates to a specific field's value</i><br/><br/><strong>Sorting Capability</strong><br/><i>Sort by scalar fields during execution</i></td>
         </tr>
         <tr>
             <td><strong>Rich Functionality & Management</strong><br/><i>Developer-friendly and robust data management features</i></td>
@@ -41,7 +41,7 @@ Welcome to the Milvus Roadmap! Join us on our continuous journey to enhance and 
         </tr>
         <tr>
             <td><strong>Cost Efficiency & Achitecture</strong><br/><i>State-of-the-art systems, prioritizing stability, cost-efficiency and scalability </i></td>
-            <td><strong>Load by Field</strong><br/><i>Choose part of collection to load</i><br/><br/><strong>Memory Optimization</strong><br/><i>Reduce OOM and load enhancement</i><br/><br/><strong>Streaming Node (Beta)</strong><br/><i>Provide global consistency and solve performance bottleneck on root coordinator</i><br/><br/><strong>Storage Format V2 (Beta)</strong><br/><i>Universal formats design and foundation for disk-based data access</i><br/><br/><strong>Clustering Compaction</strong><br/><i>Data re-distribution based on configuration to accelerate read performance</i></td>
+            <td><strong>Load by Field</strong><br/><i>Choose part of collection to load</i><br/><br/><strong>Memory Optimization</strong><br/><i>Reduce OOM and load enhancement</i><br/><br/><strong>Streaming Node (Beta)</strong><br/><i>Provide global consistency and solve performance bottleneck on root coordinator</i><br/><br/><strong>Clustering Compaction (Beta)</strong><br/><i>Data re-distribution based on configuration to accelerate read performance</i></td>
             <td><strong>Lazy Load</strong><br/><i>Load can be initiated by the first read operation without explicitly calling load()</i><br/><br/><strong>Tiered Storage</strong><br/><i>Support hot and cold storage for cost optimization</i><br/><br/><strong>Release by Field</strong><br/><i>Release part of collection to reduce memory usage</i><br/><br/><strong>Streaming Node (GA)</strong><br/><i>Process streaming data and simplify the architecture</i></td>
             <td><strong>Remove dependencies</strong><br/><i>Reduce or eliminate dependencies on external components like pulsar, etcd</i><br/><br/><strong>Merge coord logic into MixCoord</strong><br/><i>Simplify the architecture</i></td>
         </tr>
