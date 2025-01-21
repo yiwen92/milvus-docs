@@ -1,6 +1,6 @@
 ---
 id: kafka-connect-milvus.md
-summary: Learn how to integrate Apache Kafka with Milvus or Zilliz Cloud to stream vector data. This guide covers setup, configuration, and using the Kafka-Milvus connector to build real-time search pipelines for applications like semantic search, recommendation systems, and AI-driven analytics.
+summary: Apache Kafka is integrated with Milvus and Zilliz Cloud to stream vector data. Learn how to use Kafka-Milvus connector to build real-time pipelines for semantic search, recommendation systems, and AI-driven analytics.
 title: Connect Apache Kafka® with Milvus/Zilliz Cloud for Real-Time Vector Data Ingestion
 ---
 
