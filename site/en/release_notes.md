@@ -10,11 +10,11 @@ Find out what’s new in Milvus! This page summarizes new features, improvements
 
 ## v2.5.4
 
-Release date: January 21, 2025
+Release date: January 23, 2025
 
 | Milvus version | Python SDK version | Node.js SDK version | Java SDK version |
 |----------------|--------------------|---------------------|------------------|
-| 2.5.4          | 2.5.3              | 2.5.4               | 2.5.4            |
+| 2.5.4          | 2.5.4              | 2.5.4               | 2.5.4            |
 
 We’re excited to announce the release of Milvus 2.5.4, which introduces key performance optimizations and new features such as PartitionKey isolation, Sparse Index with DAAT MaxScore, and enhanced locking mechanisms. This version also addresses multiple bugs that improve overall stability and reliability. We encourage you to upgrade or try out this latest release, and we look forward to your feedback in helping us continually refine Milvus!
 
