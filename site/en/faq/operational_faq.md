@@ -71,6 +71,7 @@ See [Run Milvus on Windows](https://milvus.io/blog/2021-11-19-run-milvus-2.0-on-
 #### I got an error when installing pymilvus on Windows. What shall I do?
 
 Please try to use the following command to update pymilvus to the newest version.
+
 ```shell
 pip install --upgrade pymilvus
 ```
